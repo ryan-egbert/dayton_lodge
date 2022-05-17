@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display+SC:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400&display=swap');
+body, html {
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Playfair Display SC', serif;
+}
+.nav-margin {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 4rem;
+}
+.navbar-grey {
+    color: black;
+    background-color: #dce2e9;
+}
+.nav-yellow {
+    background-color: #4e86e7;
+    /* color: black; */
+    height: 5px;
+}
+.nav-list {
+    height: 100%;
+}
+.nav-link {
+    padding: 0rem 1rem !important;
+}
+.text-black {
+    color: black;
+    font-weight: bold;
+}
+.img-flex {
+
+}
+.menu-item {
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    transition: 0.5s;
+    font-weight: 300;
+}
+.menu-item>a {
+    text-decoration: none;
+    color: inherit;
+}
+.mtb-zero {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bg-image {
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 4rem 4rem;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg-image-home {
+    /* The image used */
+    background-image: url("../lodge/DSC_0248.JPG");
+
+    /* Half height */
+    height: 75%;
+}
+.bg-image-image {
+    width: 70%;
+    margin-left: 15%;
+
+}
+.bg-image-about {
+    /* The image used */
+    background-image: url("../lodge/DSC_0248.JPG");
+
+    /* Half height */
+    height: 30%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 4rem 4rem;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg-image-header {
+    line-height: 80%;
+    vertical-align: middle;
+    color: white;
+}
+.learn-more {
+    width: 300px;
+}
+.btn-center {
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #4376ce;
+    border-color: #4376ce;
+    box-shadow: none;
+}
+.btn-primary:hover {
+    color: white;
+    background-color: #204e9c;
+    border-color: #1f4a96;
+    box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+    color: white;
+    background-color: #1a4288;
+    border-color: #193f81;
+    box-shadow: 0 0 0 0.1rem rgba(30, 76, 155, 0.5);
+}
+.btn-primary:focus {
+    color: white;
+    background-color: #204e9c;
+    border-color: #1e4992;
+    box-shadow: none;
+}
+.pages {
+    display: none;
+}
+.pages.active-page {
+    display: block;
+}
